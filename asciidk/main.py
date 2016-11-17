@@ -47,7 +47,7 @@ def run(screen):
         dungeon.render(screen)
         event_handler.propogate()
         MessageQueue.update()
-        screen.draw_next_frame()
+        screen.draw_next_frame(handle_events=False, frame_delay=100)
 
 
 if __name__ == '__main__':
