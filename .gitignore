@@ -1,0 +1,7 @@
+venv*
+.venv.touch
+.coverage
+.tox
+*.pyc
+*.sw*
+.cache
